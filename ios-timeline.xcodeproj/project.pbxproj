@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E58855516808EF300BE2A72 /* BHTTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E58855416808EF300BE2A72 /* BHTTimeLineView.m */; };
 		4ED541DC16777793005F9C13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED541DB16777793005F9C13 /* UIKit.framework */; };
 		4ED541DE16777793005F9C13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED541DD16777793005F9C13 /* Foundation.framework */; };
 		4ED541E016777793005F9C13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED541DF16777793005F9C13 /* CoreGraphics.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E58855316808EF300BE2A72 /* BHTTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHTTimeLineView.h; sourceTree = "<group>"; };
+		4E58855416808EF300BE2A72 /* BHTTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHTTimeLineView.m; sourceTree = "<group>"; };
 		4ED541D716777793005F9C13 /* ios-timeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-timeline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED541DB16777793005F9C13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4ED541DD16777793005F9C13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,6 +126,8 @@
 				4ED541F616777793005F9C13 /* BHTViewController.h */,
 				4ED541F716777793005F9C13 /* BHTViewController.m */,
 				4ED541E216777793005F9C13 /* Supporting Files */,
+				4E58855316808EF300BE2A72 /* BHTTimeLineView.h */,
+				4E58855416808EF300BE2A72 /* BHTTimeLineView.m */,
 			);
 			path = "ios-timeline";
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 				4ED541E816777793005F9C13 /* main.m in Sources */,
 				4ED541EC16777793005F9C13 /* BHTAppDelegate.m in Sources */,
 				4ED541F816777793005F9C13 /* BHTViewController.m in Sources */,
+				4E58855516808EF300BE2A72 /* BHTTimeLineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +454,7 @@
 				4ED5421216777793005F9C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ED5421316777793005F9C13 /* Build configuration list for PBXNativeTarget "ios-timelineTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +463,7 @@
 				4ED5421516777793005F9C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
