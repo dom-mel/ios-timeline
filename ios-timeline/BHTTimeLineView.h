@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BHTTimeLineItem.h"
 
 @interface BHTTimeLineView : UIView
+
+
 
 @end

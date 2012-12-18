@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E58855516808EF300BE2A72 /* BHTTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E58855416808EF300BE2A72 /* BHTTimeLineView.m */; };
 		4E58855816808FD900BE2A72 /* BHTTimeLineItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E58855716808FD900BE2A72 /* BHTTimeLineItem.m */; };
+		4E58855B1680ADDE00BE2A72 /* BHTSizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E58855A1680ADDE00BE2A72 /* BHTSizes.m */; };
 		4ED541DC16777793005F9C13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED541DB16777793005F9C13 /* UIKit.framework */; };
 		4ED541DE16777793005F9C13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED541DD16777793005F9C13 /* Foundation.framework */; };
 		4ED541E016777793005F9C13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED541DF16777793005F9C13 /* CoreGraphics.framework */; };
@@ -42,6 +43,8 @@
 		4E58855416808EF300BE2A72 /* BHTTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHTTimeLineView.m; sourceTree = "<group>"; };
 		4E58855616808FD900BE2A72 /* BHTTimeLineItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHTTimeLineItem.h; sourceTree = "<group>"; };
 		4E58855716808FD900BE2A72 /* BHTTimeLineItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHTTimeLineItem.m; sourceTree = "<group>"; };
+		4E5885591680ADDE00BE2A72 /* BHTSizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHTSizes.h; sourceTree = "<group>"; };
+		4E58855A1680ADDE00BE2A72 /* BHTSizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHTSizes.m; sourceTree = "<group>"; };
 		4ED541D716777793005F9C13 /* ios-timeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-timeline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED541DB16777793005F9C13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4ED541DD16777793005F9C13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -133,6 +136,8 @@
 				4E58855416808EF300BE2A72 /* BHTTimeLineView.m */,
 				4E58855616808FD900BE2A72 /* BHTTimeLineItem.h */,
 				4E58855716808FD900BE2A72 /* BHTTimeLineItem.m */,
+				4E5885591680ADDE00BE2A72 /* BHTSizes.h */,
+				4E58855A1680ADDE00BE2A72 /* BHTSizes.m */,
 			);
 			path = "ios-timeline";
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 				4ED541F816777793005F9C13 /* BHTViewController.m in Sources */,
 				4E58855516808EF300BE2A72 /* BHTTimeLineView.m in Sources */,
 				4E58855816808FD900BE2A72 /* BHTTimeLineItem.m in Sources */,
+				4E58855B1680ADDE00BE2A72 /* BHTSizes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

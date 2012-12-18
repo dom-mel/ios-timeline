@@ -15,7 +15,8 @@
         withShape:(enum Shape) shape
         andConnection:(bool) showConnection
         andDate:(NSDate*) date
-        andWeight:(int) weight {
+        andWeight:(int) weight
+        andSize:(enum Size)size {
 
     self = [super init];
     
@@ -34,7 +35,8 @@
         withShape:(enum Shape) shape
         andConnection:(bool) showConnection
         andDate:(NSDate*) date
-        andWeight:(int) weight {
+        andWeight:(int) weight
+        andSize:(enum Size)size {
     
     self = [super init];
     
