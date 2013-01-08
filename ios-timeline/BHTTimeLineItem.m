@@ -10,7 +10,7 @@
 
 @implementation BHTTimeLineItem
 
-- (id) initTextItemWith:(NSString*) heading
+- (id) initTextItemWithHeading:(NSString*) heading
         andText:(NSString*) text
         withShape:(enum Shape) shape
         andConnection:(bool) showConnection
@@ -30,7 +30,7 @@
     return self;
 }
 
-- (id) initImageItemWith:(NSString*) heading
+- (id) initImageItemWithHeading:(NSString*) heading
         andImage:(NSString*) image
         withShape:(enum Shape) shape
         andConnection:(bool) showConnection

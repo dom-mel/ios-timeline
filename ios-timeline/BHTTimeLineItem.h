@@ -30,7 +30,7 @@ enum Size {
 @property(readonly) int weight;
 @property(readonly) enum Size size;
 
-- (id) initTextItemWith:(NSString*) heading
+- (id) initTextItemWithHeading:(NSString*) heading
         andText:(NSString*) text
         withShape:(enum Shape) shape
         andConnection:(bool) showConnection
@@ -38,7 +38,7 @@ enum Size {
         andWeight:(int) weight
         andSize:(enum Size) size;
 
-- (id) initImageItemWith:(NSString*) heading
+- (id) initImageItemWithHeading:(NSString*) heading
         andImage:(NSString*) image
         withShape:(enum Shape) shape
         andConnection:(bool) showConnection
