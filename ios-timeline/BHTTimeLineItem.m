@@ -18,6 +18,8 @@
         andWeight:(int) weight
         andSize:(enum Size)size {
 
+    NSLog(@"initTextItem...");
+
     self = [super init];
     
     _heading = heading;
@@ -26,6 +28,8 @@
     _showConnection = showConnection;
     _date = date;
     _weight = weight;
+    
+    NSLog([NSString stringWithFormat:@"%@ %@", _heading, self.heading ]);
     
     return self;
 }
